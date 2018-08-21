@@ -19,4 +19,4 @@ class MainProgramTests(unittest.TestCase):
 
         star_realms.main(input_function, print_function)
 
-        self.assertEqual(all_output[2], "Player 2 current score: 48.0")
+        self.assertIn("Player 2 current score: 48.0", all_output)
