@@ -1,5 +1,7 @@
 # Star-Realms-Project
 
+A score counting application.
+
 ## Running tests
 
 ```sh
