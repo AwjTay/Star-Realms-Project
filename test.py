@@ -9,13 +9,18 @@ class MainProgramTests(unittest.TestCase):
         """
         When a damage amount for player two is input, the score of player two is decremented.
         """
+        all_inputs = [
+            "2", "10", "5", "4",
+        ]
+
         def input_function():
-            return "2"
+            return all_inputs.pop(0)
 
         all_output = []
 
         def print_function(output):
             all_output.append(output)
+            print(output)
 
         star_realms.main(input_function, print_function)
 

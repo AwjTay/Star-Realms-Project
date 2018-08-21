@@ -7,3 +7,7 @@ A score counting application.
 ```sh
 python -m unittest test
 ```
+
+## Homework
+
+Complete tests for all of the ouput
